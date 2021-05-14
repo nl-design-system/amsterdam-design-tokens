@@ -27,7 +27,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "npm-run-all 'build:*'",
+    "build": "lerna run build",
     "clean": "rimraf dist/",
     "deploy": "npm-run-all 'deploy:*'",
     "lint": "npm-run-all --continue-on-error 'lint:*' && lerna run lint",
