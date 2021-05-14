@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Fri, 14 May 2021 10:43:12 GMT
+ * Generated on Fri, 14 May 2021 10:51:41 GMT
  */
 
 export const colorRed40 = "hsl(0 100% 37%)";
