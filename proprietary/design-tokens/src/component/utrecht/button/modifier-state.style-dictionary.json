@@ -1,0 +1,19 @@
+{
+  "utrecht": {
+    "button": {
+      "primary-action": {
+        "hover": {
+          "background-color": {},
+          "color": {}
+        }
+      },
+      "secondary-action": {
+        "hover": {
+          "background-color": {},
+          "color": {},
+          "border-color": {}
+        }
+      }
+    }
+  }
+}

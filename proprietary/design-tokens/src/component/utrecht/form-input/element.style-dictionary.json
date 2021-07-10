@@ -1,0 +1,9 @@
+{
+  "utrecht": {
+    "form-input": {
+      "placeholder": {
+        "color": { "value": "{amsterdam.color.grey.70.value}" }
+      }
+    }
+  }
+}

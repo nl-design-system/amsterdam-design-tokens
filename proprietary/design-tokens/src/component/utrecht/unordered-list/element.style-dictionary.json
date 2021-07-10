@@ -1,0 +1,13 @@
+{
+  "utrecht": {
+    "unordered-list": {
+      "item": {
+        "margin-block-start": { "value": "0" },
+        "margin-block-end": { "value": "8px" }
+      },
+      "marker": {
+        "color": { "value": "{amsterdam.color.grey.50.value}" }
+      }
+    }
+  }
+}
