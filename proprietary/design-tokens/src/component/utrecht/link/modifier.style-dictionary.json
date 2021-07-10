@@ -1,0 +1,20 @@
+{
+  "utrecht": {
+    "link": {
+      "active": {
+        "color": {}
+      },
+      "focus": {
+        "color": {},
+        "text-decoration": {}
+      },
+      "hover": {
+        "color": { "value": "{amsterdam.color.red.50.value}" },
+        "text-decoration": {}
+      },
+      "visited": {
+        "color": {}
+      }
+    }
+  }
+}

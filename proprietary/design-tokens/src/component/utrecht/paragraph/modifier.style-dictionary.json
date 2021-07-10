@@ -1,0 +1,11 @@
+{
+  "utrecht": {
+    "paragraph": {
+      "lead": {
+        "font-size": {},
+        "font-weight": { "value": "{amsterdam.typography.weight-scale.semi-bold.font-weight.value}" },
+        "line-height": {}
+      }
+    }
+  }
+}
