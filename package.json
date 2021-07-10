@@ -52,6 +52,8 @@
     "lint-fix:js": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint-fix:md": "markdownlint --fix '**/*.md'",
     "prettier": "prettier --write .",
+    "publish": "lerna publish from-package",
+    "release": "lerna version prerelease --no-changelog --no-private",
     "test": "exit 0"
   }
 }
