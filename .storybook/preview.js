@@ -1,4 +1,5 @@
 import '@nl-design-system-unstable/amsterdam-design-tokens/dist/index.css';
+import '../proprietary/font/src/index.css';
 
 const statuses = {
   STABLE: {
