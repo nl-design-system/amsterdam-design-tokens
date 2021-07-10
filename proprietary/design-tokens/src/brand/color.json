@@ -54,7 +54,7 @@
         "$comment": "#F5F5F5"
       },
       "100": {
-        "value": "hsl(00%0%)",
+        "value": "hsl(0 0% 100%)",
         "$comment": "#ffffff"
       }
     },
@@ -98,6 +98,12 @@
       "50": {
         "value": "hsl(200 100% 46%)",
         "$comment": "#009DEC"
+      }
+    },
+    "yellow": {
+      "50": {
+        "value": "hsl(54 100% 50%)",
+        "$comment": "#FFE600"
       }
     }
   }
