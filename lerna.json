@@ -1,5 +1,14 @@
 {
-  "packages": ["packages/*", "proprietary/*"],
-  "npmClient": "yarn",
-  "version": "independent"
+  "npmClient": "npm",
+  "version": "independent",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {},
+    "version": {
+      "allowBranch": ["main"],
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "docs(release): design system packages"
+    }
+  }
 }

@@ -16,8 +16,8 @@
     "build": "style-dictionary build --config ./style-dictionary.config.json"
   },
   "devDependencies": {
-    "chokidar-cli": "^2.1.0",
-    "rimraf": "^3.0.2",
-    "style-dictionary": "^3.0.0-rc.9"
+    "chokidar-cli": "2.1.0",
+    "rimraf": "3.0.2",
+    "style-dictionary": "3.0.0-rc.9"
   }
 }
