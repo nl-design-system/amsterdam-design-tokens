@@ -8,7 +8,7 @@
       "allowBranch": ["main"],
       "conventionalCommits": true,
       "exact": true,
-      "message": "docs(release): design system packages"
+      "message": "docs(release): design system packages\n\nskip-checks: true"
     }
   }
 }
