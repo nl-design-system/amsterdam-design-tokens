@@ -1,0 +1,67 @@
+import { Meta, ColorPalette, ColorItem } from "@storybook/addon-docs";
+import {
+  colorAmber50,
+  colorBlack,
+  colorBlue25,
+  colorBlue30,
+  colorGray0,
+  colorGray100,
+  colorGray20,
+  colorGray50,
+  colorGray70,
+  colorGray90,
+  colorGray95,
+  colorGreen30,
+  colorLightblue50,
+  colorLightgreen40,
+  colorOrange50,
+  colorPink50,
+  colorPurple30,
+  colorRed40,
+  colorRed50,
+  colorWhite,
+  colorYellow50,
+} from "../proprietary/design-tokens/dist/index.js";
+
+<Meta title="Amsterdam/Colors" />
+
+# Colors
+
+## Primary Colors
+
+<ColorPalette>
+  <ColorItem title="Black" colors={[colorBlack]} />
+  <ColorItem title="Dark Blue" colors={[colorBlue30]} />
+  <ColorItem title="Red" colors={[colorRed40]} />
+  <ColorItem title="White" colors={[colorWhite]} />
+</ColorPalette>
+
+## Neutral Colors
+
+<ColorPalette>
+  <ColorItem title="Neutral Grey 1" colors={[colorGray95]} />
+  <ColorItem title="Neutral Grey 2" colors={[colorGray90]} />
+  <ColorItem title="Neutral Grey 3" colors={[colorGray70]} />
+  <ColorItem title="Neutral Grey 4" colors={[colorGray50]} />
+  <ColorItem title="Neutral Grey 5" colors={[colorGray20]} />
+</ColorPalette>
+
+## Support colours
+
+<ColorPalette>
+  <ColorItem title="Focus" colors={[colorAmber50]} />
+  <ColorItem title="Invalid" colors={[colorRed40]} />
+  <ColorItem title="Valid" colors={[colorGreen30]} />
+</ColorPalette>
+
+## Supplement colours
+
+<ColorPalette>
+  <ColorItem title="Darkgreen" colors={[colorGreen30]} />
+  <ColorItem title="Lightblue" colors={[colorLightblue50]} />
+  <ColorItem title="Lightgreen" colors={[colorLightgreen40]} />
+  <ColorItem title="Orange" colors={[colorOrange50]} />
+  <ColorItem title="Pink" colors={[colorPink50]} />
+  <ColorItem title="Purple" colors={[colorPurple30]} />
+  <ColorItem title="Yellow" colors={[colorYellow50]} />
+</ColorPalette>
