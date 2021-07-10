@@ -28,7 +28,6 @@
     "no-tilde-version-dependencies": "error",
     "no-tilde-version-devDependencies": "error",
     "preferGlobal-type": "error",
-    "private-type": "error",
     "repository-type": "error",
     "scripts-type": "error",
     "version-type": "error",
