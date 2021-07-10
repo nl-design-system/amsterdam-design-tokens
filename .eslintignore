@@ -1,5 +1,6 @@
 # Ignore 3rd party files
 node_modules
+proprietary/font/src/
 
 # Ignore generated files
 dist
