@@ -38,10 +38,13 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build",
+    "prebuild": "npm run clean",
+    "build": "npm-run-all --sequential build-workspaces build:**",
+    "build:example": "exit 0",
+    "build-workspaces": "lerna run build",
     "clean": "rimraf dist/",
     "deploy": "npm-run-all 'deploy:*'",
-    "lint": "npm-run-all --continue-on-error 'lint:*' && lerna run lint",
+    "lint": "npm-run-all --continue-on-error lint:** lint-workspaces",
     "lint:css": "stylelint --allow-empty-input '**/*.css'",
     "lint:js": "eslint --no-error-on-unmatched-pattern '**/*.{js,jsx,ts,tsx}'",
     "lint:html": "find . -type d \\( -name node_modules \\) -prune -false -o -name '*.html' -print0 | xargs -0 npx html-validate",
@@ -51,9 +54,11 @@
     "lint-fix:css": "stylelint --fix '**/*.css'",
     "lint-fix:js": "eslint --fix '**/*.{js,jsx,ts,tsx}'",
     "lint-fix:md": "markdownlint --fix '**/*.md'",
+    "lint-workspaces": "lerna run --no-bail lint",
     "prettier": "prettier --write .",
     "publish": "lerna publish from-package",
     "release": "lerna version prerelease --no-changelog --no-private",
-    "test": "exit 0"
+    "test": "npm run test-workspaces",
+    "test-workspaces": "lerna run --no-bail test"
   }
 }
